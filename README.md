@@ -12,6 +12,7 @@
 
 **Integrantes del Grupo:**
 - Sebastian Sanchez
+- Cristobal Machado
 
 **Plataforma(s) de Desarrollo:**
 - **Sistema Operativo**: Windows
