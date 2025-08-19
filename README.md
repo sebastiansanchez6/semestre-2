@@ -8,11 +8,15 @@
 # 📚 PRACTICE I - Library Book Lending Management System
 **VALUE: 12% OF THE FINAL GRADE OF THE COURSE**
 
+
 ## 👥 Información del Grupo
 
 **Integrantes del Grupo:**
 - Sebastian Sanchez
 - Cristobal Machado
+
+#video de explicaciom 
+https://youtu.be/aeCCcvi1rNw
 
 **Plataforma(s) de Desarrollo:**
 - **Sistema Operativo**: Windows
@@ -154,95 +158,7 @@ profe ponganos 5 | carnet 148124 | Prestado a las 2025-08-18 02:04:07
 profe ponganos 5 | carnet: 124124 | Devuelto a las 2025-08-18 02:01:28
 ```
 
-## 🚀 Instrucciones de Ejecución
-
-### Prerrequisitos
-```bash
-# Instalar GHC (Glasgow Haskell Compiler)
-# Verificar instalación
-ghc --version
-```
-
-### Compilación y Ejecución
-```bash
-# Navegar al directorio del proyecto
-cd semestre-2
-
-# Compilar el programa principal
-ghc menu.hs
-
-# Ejecutar el sistema
-./menu
-```
-
-### Flujo de Operación
-
-1. **Menú Principal**: Seleccionar entre Panel de Usuario, Administrador o Salir
-2. **Panel Usuario**:
-   - Ver libros disponibles con IDs numerados
-   - Solicitar préstamo con ID y carnet
-   - Devolver libros prestados
-3. **Panel Administrador**:
-   - Agregar nuevos libros al sistema
-   - Consultar registros de préstamos y devoluciones
-   - Gestionar inventario completo
-
-## 🎓 Conceptos de Haskell Aplicados
-
-### Programación Funcional
-- **Funciones puras**: Cálculos sin efectos secundarios
-- **Inmutabilidad**: Estructuras de datos inmutables
-- **Recursión**: Algoritmos recursivos para procesamiento
-- **Pattern matching**: Control de flujo funcional
-
-### Monadas y Efectos
-- **IO Monad**: Manejo de entrada/salida
-- **Secuenciación**: Operaciones IO secuenciales
-- **Composición**: Combinación de operaciones IO
-
-### Gestión de Datos
-- **Listas**: Estructura principal de datos
-- **Strings**: Manipulación de texto
-- **Archivos**: Persistencia y recuperación de datos
-
-## 📁 Ejercicios Complementarios (curso2/)
-
-El directorio `curso2/` contiene ejercicios fundamentales de Haskell:
-
-- **`funciones.hs`**: Operaciones aritméticas básicas
-- **`listas.hs`**: Funciones de manipulación de listas
-- **`logicas.hs`**: Operadores lógicos booleanos
-- **`comparacion.hs`**: Operadores de comparación y predicados
-- **`video1.hs`**: Construcción recursiva de listas
-
-## 📹 Demostración en Video
-
-El sistema implementa todas las características requeridas y está listo para demostración:
-
-1. **Funcionalidad completa**: Todos los requerimientos implementados
-2. **Interfaz intuitiva**: Menús claros y navegación sencilla
-3. **Persistencia robusta**: Datos guardados entre sesiones
-4. **Validación de entrada**: Manejo de errores y casos edge
-5. **Timestamps precisos**: Registro temporal de todas las operaciones
-
-## 🏆 Criterios de Evaluación Cumplidos
-
-### Funcionalidad y Operación del Script Haskell (30%)
-- ✅ Implementación completa de todos los requerimientos funcionales
-- ✅ Código Haskell 100% funcional y sin errores
-- ✅ Persistencia de datos efectiva
-- ✅ Manejo robusto de archivos
-- ✅ Validación de entrada de usuario
-
-### Calidad de la Presentación en Video (70%)
-- ✅ Sistema completamente funcional para demostración
-- ✅ Todas las características implementadas y operativas
-- ✅ Interfaz clara y fácil de seguir
-- ✅ Casos de uso completos disponibles para mostrar
-
----
-
 **Repositorio GitHub**: https://github.com/sebastiansanchez6/semestre-2  
 **Curso**: ST0244 - Programming Languages and Computing Paradigms  
 **Universidad**: EAFIT - Escuela de Ciencias Aplicadas e Ingeniería  
-**Fecha de Entrega**: Agosto 2025
+
