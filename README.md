@@ -21,7 +21,7 @@ https://youtu.be/aeCCcvi1rNw
 **Plataforma(s) de Desarrollo:**
 - **Sistema Operativo**: Windows
 - **Compilador**: GHC (Glasgow Haskell Compiler)
-- **Editor**: IntelliJ IDEA / IDE compatible con Haskell
+- **Editor**: Visual Studio Code
 - **Control de Versiones**: Git & GitHub
 
 ## 🎯 Descripción del Proyecto
