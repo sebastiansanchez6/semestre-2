@@ -15,7 +15,7 @@
 - Sebastian Sanchez
 - Cristobal Machado
 
-#video de explicaciom 
+##video de explicaciom 
 https://youtu.be/aeCCcvi1rNw
 
 **Plataforma(s) de Desarrollo:**
@@ -28,78 +28,6 @@ https://youtu.be/aeCCcvi1rNw
 
 Este proyecto implementa un **Sistema de Gestión de Préstamos de Libros para Biblioteca** desarrollado completamente en **Haskell**, cumpliendo con todos los requerimientos funcionales y técnicos especificados en la práctica I del curso ST0244.
 
-## 📋 Requerimientos Funcionales Implementados
-
-### ✅ 1. Registrar Préstamo (Check Out)
-- **Archivo**: `usuario.hs` - función `solicitarLibro`
-- **Funcionalidad**: Permite registrar cuando un libro es prestado de la biblioteca
-- **Implementación**: 
-  - Solicita código ID del libro
-  - Registra tiempo actual del préstamo usando `Data.Time`
-  - Guarda registro en `prestamos.txt`
-  - Remueve libro de inventario disponible
-
-### ✅ 2. Búsqueda por ID de Libro
-- **Archivo**: `usuario.hs` - función `verLibros`
-- **Funcionalidad**: Permite buscar un libro prestado por su ID único
-- **Implementación**:
-  - Muestra libros disponibles con IDs numerados
-  - Permite selección por número de ID
-  - Valida existencia del ID antes de procesar
-
-### ✅ 3. Cálculo de Duración de Préstamo
-- **Archivo**: `admin.hs` y `usuario.hs` - función `obtenerHora`
-- **Funcionalidad**: Calcula tiempo que un libro ha estado prestado
-- **Implementación**:
-  - Registra timestamp de préstamo y devolución
-  - Formato: `YYYY-MM-DD HH:MM:SS`
-  - Permite cálculo manual de duración entre fechas
-
-### ✅ 4. Lista de Libros Prestados
-- **Archivo**: `admin.hs` - función `verRegistroPrestamos`
-- **Funcionalidad**: Carga y muestra todos los registros de libros prestados
-- **Implementación**:
-  - Lee archivo `prestamos.txt`
-  - Muestra información completa en terminal
-  - Formato: `[Libro] | carnet [Número] | Prestado a las [Timestamp]`
-
-### ✅ 5. Registrar Devolución (Check In)
-- **Archivo**: `usuario.hs` - función `devolverLibro`
-- **Funcionalidad**: Permite registrar devolución de libro a la biblioteca
-- **Implementación**:
-  - Solicita código ID del libro
-  - Registra tiempo actual de devolución
-  - Actualiza inventario disponible
-  - Guarda registro en `devoluciones.txt`
-
-## 🔧 Requerimientos Técnicos Cumplidos
-
-### ✅ Desarrollo 100% en Haskell
-- Todo el código está escrito en Haskell puro
-- Uso de paradigma de programación funcional
-- Implementación de monadas IO para efectos secundarios
-
-### ✅ Persistencia de Datos
-- **Archivos de datos**:
-  - `libros.txt`: Inventario de libros disponibles
-  - `prestamos.txt`: Registro de préstamos activos
-  - `devoluciones.txt`: Historial de devoluciones
-- **Carga al inicio**: El programa lee información almacenada en archivos
-- **Manipulación en listas**: Datos se cargan en listas para procesamiento
-
-### ✅ Gestión de Archivos
-- Funciones `readFile`, `writeFile`, `appendFile`
-- Persistencia automática de todas las transacciones
-- Mantenimiento de integridad de datos entre sesiones
-
-### ✅ Funciones Separadas
-- **`agregarLibro`**: Agregar libros al inventario
-- **`solicitarLibro`**: Registrar préstamos
-- **`devolverLibro`**: Registrar devoluciones
-- **`verLibros`**: Mostrar inventario
-- **`verRegistroPrestamos`**: Mostrar préstamos activos
-- **`verRegistroDevolucion`**: Mostrar historial de devoluciones
-- **`obtenerHora`**: Gestión de timestamps
 
 ## 🏗️ Arquitectura del Sistema
 
