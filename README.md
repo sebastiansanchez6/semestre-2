@@ -15,7 +15,7 @@
 - Sebastian Sanchez
 - Cristobal Machado
 
-##video de explicaciom 
+video de explicaciom 
 https://youtu.be/aeCCcvi1rNw
 
 **Plataforma(s) de Desarrollo:**
